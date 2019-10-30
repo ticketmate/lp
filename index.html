@@ -27,7 +27,7 @@
       }
 
       setTimeout(function() {
-        location.href = 'https://ticketmate.jp/' + getParam('fp');
+        location.href = 'https://ticketmate.jp/' + (getParam('fp') ? getParam('fp') : '')
       }, 0);
     </script>
   </body>
